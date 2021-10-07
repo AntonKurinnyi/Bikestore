@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-xxl">
+              <a class="navbar-brand" href="#"><i>Bikestore</i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bike-store.it/" target="_blank">Negozio</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Laboratorio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Componenti
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Telaio</a></li>
+                      <li><a class="dropdown-item" href="#">Ruote</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Altro</a></li>
+                    </ul>
+                  </li>                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Cercare la Tua bici" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Cerca</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <section>
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-9">
+                    <h1>Benvenuti a Bikestore</h1>
+                    Bikestore nasce dall'esperienza, dalla tecnica e dalla grande passione di persone che vivono da generazioni l'ambiente del ciclismo 
+                </div>
+                <div class="col-3"><img class="w-100" src="https://images3.alphacoders.com/280/280639.jpg" alt="bike"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-xxl">
+            <h2>Le nostre offerte</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1605737710291-98fe72919667?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80%27" class="card-img-top" alt="race">
+                                <div class="card-body">
+                                  <h5 class="card-title">Strada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1578683416220-3f97273c939c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="endurobike">
+                                <div class="card-body">
+                                  <h5 class="card-title">Enduro</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1627363725159-898ae9e13679?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80%27" class="card-img-top" alt="citybike">
+                                <div class="card-body">
+                                  <h5 class="card-title">City</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1552549678-1a380a5a428b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="gravel">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gravel</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1605737710291-98fe72919667?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80%27" class="card-img-top" alt="race">
+                                <div class="card-body">
+                                  <h5 class="card-title">Strada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1578683416220-3f97273c939c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="endurobike">
+                                <div class="card-body">
+                                  <h5 class="card-title">Enduro</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1627363725159-898ae9e13679?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80%27" class="card-img-top" alt="citybike">
+                                <div class="card-body">
+                                  <h5 class="card-title">City</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1552549678-1a380a5a428b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="gravel">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gravel</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1605737710291-98fe72919667?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80%27" class="card-img-top" alt="race">
+                                <div class="card-body">
+                                  <h5 class="card-title">Strada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1627363725159-898ae9e13679?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80%27" class="card-img-top" alt="citybike">
+                                <div class="card-body">
+                                  <h5 class="card-title">City</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1552549678-1a380a5a428b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="gravel">
+                                <div class="card-body">
+                                  <h5 class="card-title">Gravel</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://images.unsplash.com/photo-1578683416220-3f97273c939c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80%27" class="card-img-top" alt="endurobike">
+                                <div class="card-body">
+                                  <h5 class="card-title">Enduro</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Leggere</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-9">
+                    
+                </div>
+                <div class="col-3">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Registrati</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>

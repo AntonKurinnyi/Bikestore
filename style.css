@@ -1,0 +1,26 @@
+body{
+    background-color: #8e8ee42d;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+.carousel-control-next-icon{
+    background-image: url(next.png);
+}
+
+.carousel-control-prev-icon{
+    background-image: url(left-arrow.png);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 35px;
+}
+.carousel-control-prev{
+left: -35px;
+}
+
+.carousel-control-next{
+right: -35px;
+} 
